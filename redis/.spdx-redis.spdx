@@ -1,0 +1,40 @@
+{
+    "SPDXID": "SPDXRef-redis",
+    "spdxVersion": "SPDX-2.3",
+    "creationInfo": {
+        "created": "2023-05-20T00:16:01.940Z",
+        "creators": [
+            "Organization: VMware, Inc."
+        ]
+    },
+    "name": "SPDX document for Redis (TM) 7.0.11",
+    "dataLicense": "CC0-1.0",
+    "documentDescribes": [
+        "SPDXRef-redis"
+    ],
+    "documentNamespace": "redis-7.0.11",
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-redis",
+            "name": "Redis (TM)",
+            "versionInfo": "7.0.11",
+            "downloadLocation": "http://download.redis.io/releases/redis-7.0.11.tar.gz",
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:*:redis:redis:7.0.11:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "purl:bitnami/redis@7.0.11"
+                }
+            ]
+        }
+    ],
+    "files": []
+}

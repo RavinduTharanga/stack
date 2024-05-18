@@ -1,0 +1,19 @@
+current directory: /opt/bitnami/ruby/lib/ruby/gems/3.0.0/gems/debug-1.8.0/ext/debug
+/opt/bitnami/ruby/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /opt/bitnami/ruby/lib/ruby/gems/3.0.0/gems/debug-1.8.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20230524-19002-44brih sitelibdir\=./.gem.20230524-19002-44brih clean
+
+current directory: /opt/bitnami/ruby/lib/ruby/gems/3.0.0/gems/debug-1.8.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20230524-19002-44brih sitelibdir\=./.gem.20230524-19002-44brih
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: /opt/bitnami/ruby/lib/ruby/gems/3.0.0/gems/debug-1.8.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20230524-19002-44brih sitelibdir\=./.gem.20230524-19002-44brih install
+/usr/bin/install -c -m 0755 debug.so ./.gem.20230524-19002-44brih/debug
+
+current directory: /opt/bitnami/ruby/lib/ruby/gems/3.0.0/gems/debug-1.8.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20230524-19002-44brih sitelibdir\=./.gem.20230524-19002-44brih clean

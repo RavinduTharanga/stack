@@ -1,0 +1,1 @@
+canvaslms-2023.5.24-115,AGPL-3.0-only,https://github.com/instructure/canvas-lms/archive/refs/tags/release/2023-05-24.115.tar.gz

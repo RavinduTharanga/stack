@@ -1,0 +1,400 @@
+{
+    "SPDXID": "SPDXRef-yq",
+    "spdxVersion": "SPDX-2.3",
+    "creationInfo": {
+        "created": "2023-05-23T06:17:32.543Z",
+        "creators": [
+            "Organization: VMware, Inc."
+        ]
+    },
+    "name": "SPDX document for yq 4.34.1",
+    "dataLicense": "CC0-1.0",
+    "documentDescribes": [
+        "SPDXRef-yq"
+    ],
+    "documentNamespace": "yq-4.34.1",
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-yq",
+            "name": "yq",
+            "versionInfo": "4.34.1",
+            "downloadLocation": "https://github.com/mikefarah/yq/archive/refs/tags/v4.34.1.tar.gz",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:*:yq:yq:4.34.1:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "purl:bitnami/yq@4.34.1"
+                }
+            ]
+        },
+        {
+            "name": "github.com/a8m/envsubst",
+            "SPDXID": "SPDXRef-Package-269873c7d38a85cf",
+            "versionInfo": "v1.4.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "copyrightText": "",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:golang/github.com/a8m/envsubst@v1.4.2"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY"
+        },
+        {
+            "name": "github.com/alecthomas/participle/v2",
+            "SPDXID": "SPDXRef-Package-cd8c36f57c0efdcd",
+            "versionInfo": "v2.0.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "copyrightText": "",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:golang/github.com/alecthomas/participle/v2@v2.0.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY"
+        },
+        {
+            "name": "github.com/dimchansky/utfbom",
+            "SPDXID": "SPDXRef-Package-3687761f4e02dab7",
+            "versionInfo": "v1.1.1",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "copyrightText": "",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:golang/github.com/dimchansky/utfbom@v1.1.1"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY"
+        },
+        {
+            "name": "github.com/elliotchance/orderedmap",
+            "SPDXID": "SPDXRef-Package-5dae76528bbf56d1",
+            "versionInfo": "v1.5.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "copyrightText": "",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:golang/github.com/elliotchance/orderedmap@v1.5.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY"
+        },
+        {
+            "name": "github.com/fatih/color",
+            "SPDXID": "SPDXRef-Package-ac1884deceb47c24",
+            "versionInfo": "v1.15.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "copyrightText": "",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:golang/github.com/fatih/color@v1.15.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY"
+        },
+        {
+            "name": "github.com/goccy/go-json",
+            "SPDXID": "SPDXRef-Package-a7f67b7e9cdca530",
+            "versionInfo": "v0.10.2",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "copyrightText": "",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:golang/github.com/goccy/go-json@v0.10.2"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY"
+        },
+        {
+            "name": "github.com/goccy/go-yaml",
+            "SPDXID": "SPDXRef-Package-b74758e2479ac41d",
+            "versionInfo": "v1.11.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "copyrightText": "",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:golang/github.com/goccy/go-yaml@v1.11.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY"
+        },
+        {
+            "name": "github.com/jinzhu/copier",
+            "SPDXID": "SPDXRef-Package-4a6d4fb3e471ccfd",
+            "versionInfo": "v0.3.5",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "copyrightText": "",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:golang/github.com/jinzhu/copier@v0.3.5"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY"
+        },
+        {
+            "name": "github.com/magiconair/properties",
+            "SPDXID": "SPDXRef-Package-7477dc0685674f6",
+            "versionInfo": "v1.8.7",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "copyrightText": "",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:golang/github.com/magiconair/properties@v1.8.7"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY"
+        },
+        {
+            "name": "github.com/mattn/go-colorable",
+            "SPDXID": "SPDXRef-Package-5d53821a753d078c",
+            "versionInfo": "v0.1.13",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "copyrightText": "",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:golang/github.com/mattn/go-colorable@v0.1.13"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY"
+        },
+        {
+            "name": "github.com/mattn/go-isatty",
+            "SPDXID": "SPDXRef-Package-ab4761a096ce8266",
+            "versionInfo": "v0.0.17",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "copyrightText": "",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:golang/github.com/mattn/go-isatty@v0.0.17"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY"
+        },
+        {
+            "name": "github.com/pelletier/go-toml/v2",
+            "SPDXID": "SPDXRef-Package-af865d82d7eb2342",
+            "versionInfo": "v2.0.7",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "copyrightText": "",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:golang/github.com/pelletier/go-toml/v2@v2.0.7"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY"
+        },
+        {
+            "name": "github.com/spf13/cobra",
+            "SPDXID": "SPDXRef-Package-143280c1b75a12a8",
+            "versionInfo": "v1.7.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "copyrightText": "",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:golang/github.com/spf13/cobra@v1.7.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY"
+        },
+        {
+            "name": "github.com/spf13/pflag",
+            "SPDXID": "SPDXRef-Package-8e18fcf9937da7bd",
+            "versionInfo": "v1.0.5",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "copyrightText": "",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:golang/github.com/spf13/pflag@v1.0.5"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY"
+        },
+        {
+            "name": "golang.org/x/net",
+            "SPDXID": "SPDXRef-Package-b29102f21d060d4c",
+            "versionInfo": "v0.10.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "copyrightText": "",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:golang/golang.org/x/net@v0.10.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY"
+        },
+        {
+            "name": "golang.org/x/sys",
+            "SPDXID": "SPDXRef-Package-de53786d5284b7bc",
+            "versionInfo": "v0.8.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "copyrightText": "",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:golang/golang.org/x/sys@v0.8.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY"
+        },
+        {
+            "name": "golang.org/x/text",
+            "SPDXID": "SPDXRef-Package-48d2ecabb80e055d",
+            "versionInfo": "v0.9.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "copyrightText": "",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:golang/golang.org/x/text@v0.9.0"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY"
+        },
+        {
+            "name": "golang.org/x/xerrors",
+            "SPDXID": "SPDXRef-Package-c97d89a3c28a473",
+            "versionInfo": "v0.0.0-20220609144429-65e65417b02f",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "copyrightText": "",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:golang/golang.org/x/xerrors@v0.0.0-20220609144429-65e65417b02f"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY"
+        },
+        {
+            "name": "gopkg.in/op/go-logging.v1",
+            "SPDXID": "SPDXRef-Package-830628002b0a2821",
+            "versionInfo": "v1.0.0-20160211212156-b2cb9fa56473",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "copyrightText": "",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:golang/gopkg.in/op/go-logging.v1@v1.0.0-20160211212156-b2cb9fa56473"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY"
+        },
+        {
+            "name": "gopkg.in/yaml.v3",
+            "SPDXID": "SPDXRef-Package-84e5e4814268d12b",
+            "versionInfo": "v3.0.1",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "copyrightText": "",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:golang/gopkg.in/yaml.v3@v3.0.1"
+                }
+            ],
+            "primaryPackagePurpose": "LIBRARY"
+        }
+    ],
+    "files": []
+}

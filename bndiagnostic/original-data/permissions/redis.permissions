@@ -1,0 +1,60 @@
+redis:
+total 32
+drwxrwxr-x  7 root  root  4096 Jun  6 16:19 .
+drwxr-xr-x 18 root  root  4096 Jun  6 16:20 ..
+drwxrwxr-x  2 root  root  4096 May 20 00:41 bin
+drwxrwxr-x  3 root  root  4096 Jun  6 16:19 etc
+drwxrwxr-x  2 root  root  4096 May 20 00:41 licenses
+drwxr-xr-x  2 redis redis 4096 Jun  6 16:19 logs
+-rw-rw-r--  1 root  root  1263 May 20 00:16 .spdx-redis.spdx
+drwxr-xr-x  2 redis redis 4096 Jun  6 16:19 tmp
+
+redis/bin:
+total 5736
+drwxrwxr-x 2 root root    4096 May 20 00:41 .
+drwxrwxr-x 7 root root    4096 Jun  6 16:19 ..
+-rwxrwxr-x 1 root root 1355904 May 20 00:16 redis-benchmark
+lrwxrwxrwx 1 root root      12 May 20 00:16 redis-check-aof -> redis-server
+lrwxrwxrwx 1 root root      12 May 20 00:16 redis-check-rdb -> redis-server
+-rwxrwxr-x 1 root root  966496 May 20 00:16 redis-cli
+lrwxrwxrwx 1 root root      12 May 20 00:16 redis-sentinel -> redis-server
+-rwxrwxr-x 1 root root 3537584 May 20 00:16 redis-server
+
+redis/etc:
+total 228
+drwxrwxr-x 3 root root   4096 Jun  6 16:19 .
+drwxrwxr-x 7 root root   4096 Jun  6 16:19 ..
+drwxr-xr-x 2 root root   4096 Jun  6 16:19 bitnami
+lrwxrwxrwx 1 root root     25 Jun  6 16:19 memory.conf -> bitnami/memory-micro.conf
+-rw-rw-r-- 1 root root 106667 Jun  6 16:19 redis.conf
+-rw-rw-r-- 1 root root 106545 May 20 00:16 redis-default.conf
+
+redis/etc/bitnami:
+total 32
+drwxr-xr-x 2 root root 4096 Jun  6 16:19 .
+drwxrwxr-x 3 root root 4096 Jun  6 16:19 ..
+-rw-r--r-- 1 root root  108 Jun  6 16:19 memory-2xlarge.conf
+-rw-r--r-- 1 root root  106 Jun  6 16:19 memory-large.conf
+-rw-r--r-- 1 root root  106 Jun  6 16:19 memory-medium.conf
+-rw-r--r-- 1 root root  105 Jun  6 16:19 memory-micro.conf
+-rw-r--r-- 1 root root  106 Jun  6 16:19 memory-small.conf
+-rw-r--r-- 1 root root  107 Jun  6 16:19 memory-xlarge.conf
+
+redis/licenses:
+total 12
+drwxrwxr-x 2 root root 4096 May 20 00:41 .
+drwxrwxr-x 7 root root 4096 Jun  6 16:19 ..
+-rw-rw-r-- 1 root root 1487 May 20 00:16 redis-7.0.11.txt
+
+redis/logs:
+total 8
+drwxr-xr-x 2 redis redis 4096 Jun  6 16:19 .
+drwxrwxr-x 7 root  root  4096 Jun  6 16:19 ..
+
+redis/tmp:
+total 8
+drwxr-xr-x 2 redis redis 4096 Jun  6 16:19 .
+drwxrwxr-x 7 root  root  4096 Jun  6 16:19 ../bitnami/redis/data:
+total 8
+drwxrwxr-x 2 redis redis 4096 Jun  6 16:19 .
+drwxrwxr-x 3 root  root  4096 Jun  6 16:19 ..

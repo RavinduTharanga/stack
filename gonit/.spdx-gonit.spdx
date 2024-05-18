@@ -1,0 +1,271 @@
+{
+    "SPDXID": "SPDXRef-gonit",
+    "spdxVersion": "SPDX-2.3",
+    "creationInfo": {
+        "created": "2023-05-19T17:19:42.317Z",
+        "creators": [
+            "Organization: VMware, Inc."
+        ]
+    },
+    "name": "SPDX document for Gonit 0.2.8",
+    "dataLicense": "CC0-1.0",
+    "documentDescribes": [
+        "SPDXRef-gonit"
+    ],
+    "documentNamespace": "gonit-0.2.8",
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-gonit",
+            "name": "Gonit",
+            "versionInfo": "0.2.8",
+            "downloadLocation": "https://github.com/bitnami/gonit/archive/refs/tags/v0.2.8.tar.gz",
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:*:bitnami:gonit:0.2.8:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "purl:bitnami/gonit@0.2.8"
+                }
+            ]
+        },
+        {
+            "name": "github.com/VividCortex/godaemon",
+            "SPDXID": "SPDXRef-Package-d2cdc066c84e9dc9",
+            "versionInfo": "1.0.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:golang/github.com/vividcortex/godaemon@1.0.0"
+                }
+            ],
+            "attributionTexts": [
+                "PkgID: github.com/VividCortex/godaemon@v1.0.0"
+            ],
+            "primaryPackagePurpose": "LIBRARY"
+        },
+        {
+            "name": "github.com/davecgh/go-spew",
+            "SPDXID": "SPDXRef-Package-b1b0894df3b18d14",
+            "versionInfo": "1.1.1",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "ISC",
+            "licenseDeclared": "ISC",
+            "copyrightText": "",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:golang/github.com/davecgh/go-spew@1.1.1"
+                }
+            ],
+            "attributionTexts": [
+                "PkgID: github.com/davecgh/go-spew@v1.1.1"
+            ],
+            "primaryPackagePurpose": "LIBRARY"
+        },
+        {
+            "name": "github.com/inconshreveable/mousetrap",
+            "SPDXID": "SPDXRef-Package-2cd9b29b9d023774",
+            "versionInfo": "1.0.1",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "copyrightText": "",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:golang/github.com/inconshreveable/mousetrap@1.0.1"
+                }
+            ],
+            "attributionTexts": [
+                "PkgID: github.com/inconshreveable/mousetrap@v1.0.1"
+            ],
+            "primaryPackagePurpose": "LIBRARY"
+        },
+        {
+            "name": "github.com/julienschmidt/httprouter",
+            "SPDXID": "SPDXRef-Package-ae1aa7e00271fc3e",
+            "versionInfo": "1.3.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "copyrightText": "",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:golang/github.com/julienschmidt/httprouter@1.3.0"
+                }
+            ],
+            "attributionTexts": [
+                "PkgID: github.com/julienschmidt/httprouter@v1.3.0"
+            ],
+            "primaryPackagePurpose": "LIBRARY"
+        },
+        {
+            "name": "github.com/pmezard/go-difflib",
+            "SPDXID": "SPDXRef-Package-1dc872819f6f1495",
+            "versionInfo": "1.0.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "copyrightText": "",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:golang/github.com/pmezard/go-difflib@1.0.0"
+                }
+            ],
+            "attributionTexts": [
+                "PkgID: github.com/pmezard/go-difflib@v1.0.0"
+            ],
+            "primaryPackagePurpose": "LIBRARY"
+        },
+        {
+            "name": "github.com/sirupsen/logrus",
+            "SPDXID": "SPDXRef-Package-cb23a4f93dce7e8e",
+            "versionInfo": "1.9.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:golang/github.com/sirupsen/logrus@1.9.0"
+                }
+            ],
+            "attributionTexts": [
+                "PkgID: github.com/sirupsen/logrus@v1.9.0"
+            ],
+            "primaryPackagePurpose": "LIBRARY"
+        },
+        {
+            "name": "github.com/spf13/cobra",
+            "SPDXID": "SPDXRef-Package-8eeb1ea20e45ce34",
+            "versionInfo": "1.6.1",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "copyrightText": "",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:golang/github.com/spf13/cobra@1.6.1"
+                }
+            ],
+            "attributionTexts": [
+                "PkgID: github.com/spf13/cobra@v1.6.1"
+            ],
+            "primaryPackagePurpose": "LIBRARY"
+        },
+        {
+            "name": "github.com/spf13/pflag",
+            "SPDXID": "SPDXRef-Package-4702ee8aee340be2",
+            "versionInfo": "1.0.5",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "copyrightText": "",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:golang/github.com/spf13/pflag@1.0.5"
+                }
+            ],
+            "attributionTexts": [
+                "PkgID: github.com/spf13/pflag@v1.0.5"
+            ],
+            "primaryPackagePurpose": "LIBRARY"
+        },
+        {
+            "name": "github.com/stretchr/testify",
+            "SPDXID": "SPDXRef-Package-40f1599858e326b1",
+            "versionInfo": "1.8.1",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:golang/github.com/stretchr/testify@1.8.1"
+                }
+            ],
+            "attributionTexts": [
+                "PkgID: github.com/stretchr/testify@v1.8.1"
+            ],
+            "primaryPackagePurpose": "LIBRARY"
+        },
+        {
+            "name": "golang.org/x/sys",
+            "SPDXID": "SPDXRef-Package-1ac7ce93eef7d25e",
+            "versionInfo": "0.2.0",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "copyrightText": "",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:golang/golang.org/x/sys@0.2.0"
+                }
+            ],
+            "attributionTexts": [
+                "PkgID: golang.org/x/sys@v0.2.0"
+            ],
+            "primaryPackagePurpose": "LIBRARY"
+        },
+        {
+            "name": "gopkg.in/yaml.v3",
+            "SPDXID": "SPDXRef-Package-23fca5c7a06ebbf3",
+            "versionInfo": "3.0.1",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "NONE",
+            "licenseConcluded": "Apache-2.0 AND MIT",
+            "licenseDeclared": "Apache-2.0 AND MIT",
+            "copyrightText": "",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:golang/gopkg.in/yaml.v3@3.0.1"
+                }
+            ],
+            "attributionTexts": [
+                "PkgID: gopkg.in/yaml.v3@v3.0.1"
+            ],
+            "primaryPackagePurpose": "LIBRARY"
+        }
+    ],
+    "files": []
+}

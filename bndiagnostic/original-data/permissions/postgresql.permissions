@@ -1,0 +1,15 @@
+/bitnami/postgresql/conf:
+total 12
+drwxrwxr-x 3 root root 4096 Jun  6 16:19 .
+drwxrwxr-x 4 root root 4096 Jun  6 16:19 ..
+drwxrwxr-x 2 root root 4096 Jun  6 16:19 conf.d
+
+/bitnami/postgresql/conf/conf.d:
+total 8
+drwxrwxr-x 2 root root 4096 Jun  6 16:19 .
+drwxrwxr-x 3 root root 4096 Jun  6 16:19 ..
+
+/bitnami/postgresql/data:
+total 8
+drwxr-xr-x 2 postgres postgres 4096 Jun  6 16:19 .
+drwxrwxr-x 4 root     root     4096 Jun  6 16:19 ..

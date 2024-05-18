@@ -1,0 +1,8 @@
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+gemspec
+
+gem "i18n_extraction", path: "../i18n_extraction"
+gem "utf8_cleaner", path: "../utf8_cleaner"

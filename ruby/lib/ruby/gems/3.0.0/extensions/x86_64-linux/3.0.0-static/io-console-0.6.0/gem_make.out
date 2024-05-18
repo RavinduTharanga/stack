@@ -1,0 +1,24 @@
+current directory: /opt/bitnami/ruby/lib/ruby/gems/3.0.0/gems/io-console-0.6.0/ext/io/console
+/opt/bitnami/ruby/bin/ruby extconf.rb
+checking for termios.h... yes
+checking for cfmakeraw() in termios.h... yes
+checking for sys/ioctl.h... yes
+checking for HAVE_RUBY_FIBER_SCHEDULER_H... no
+checking for rb_scheduler_timeout()... yes
+checking for rb_io_wait()... yes
+creating Makefile
+
+current directory: /opt/bitnami/ruby/lib/ruby/gems/3.0.0/gems/io-console-0.6.0/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20230524-19002-q57vkb sitelibdir\=./.gem.20230524-19002-q57vkb clean
+
+current directory: /opt/bitnami/ruby/lib/ruby/gems/3.0.0/gems/io-console-0.6.0/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20230524-19002-q57vkb sitelibdir\=./.gem.20230524-19002-q57vkb
+compiling console.c
+linking shared-object io/console.so
+
+current directory: /opt/bitnami/ruby/lib/ruby/gems/3.0.0/gems/io-console-0.6.0/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20230524-19002-q57vkb sitelibdir\=./.gem.20230524-19002-q57vkb install
+/usr/bin/install -c -m 0755 console.so ./.gem.20230524-19002-q57vkb/io
+
+current directory: /opt/bitnami/ruby/lib/ruby/gems/3.0.0/gems/io-console-0.6.0/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20230524-19002-q57vkb sitelibdir\=./.gem.20230524-19002-q57vkb clean

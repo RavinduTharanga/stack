@@ -1,0 +1,11 @@
+#!/bin/sh
+#
+# Allow querying metadata externally
+#
+# Copyright 2023 Bitnami.com All Rights Reserved
+#
+
+. /opt/bitnami/scripts/init/functions
+
+get_metadata_now "$1"
+exit $?

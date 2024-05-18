@@ -1,0 +1,18 @@
+current directory: /opt/bitnami/ruby/lib/ruby/gems/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+/opt/bitnami/ruby/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /opt/bitnami/ruby/lib/ruby/gems/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20230524-19002-bhj4zf sitelibdir\=./.gem.20230524-19002-bhj4zf clean
+
+current directory: /opt/bitnami/ruby/lib/ruby/gems/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20230524-19002-bhj4zf sitelibdir\=./.gem.20230524-19002-bhj4zf
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: /opt/bitnami/ruby/lib/ruby/gems/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20230524-19002-bhj4zf sitelibdir\=./.gem.20230524-19002-bhj4zf install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20230524-19002-bhj4zf/skiptrace/internal
+
+current directory: /opt/bitnami/ruby/lib/ruby/gems/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20230524-19002-bhj4zf sitelibdir\=./.gem.20230524-19002-bhj4zf clean

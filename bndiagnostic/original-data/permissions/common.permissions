@@ -1,0 +1,408 @@
+common:
+total 64
+drwxr-xr-x  7 root root  4096 May 29 22:29 .
+drwxr-xr-x 18 root root  4096 Jun  6 16:20 ..
+drwxr-xr-x  2 root root  4096 May 29 22:29 bin
+drwxr-xr-x  3 root root  4096 May 29 22:29 etc
+drwxr-xr-x  6 root root  4096 May 29 22:29 include
+drwxr-xr-x  4 root root  4096 May 29 22:29 lib
+drwxr-xr-x  2 root root  4096 May 29 22:29 licenses
+-rw-r--r--  1 root root 10324 May 20 00:18 .spdx-render-template.spdx
+-rw-r--r--  1 root root  6939 May 20 02:39 .spdx-wait-for-port.spdx
+-rw-r--r--  1 root root 14813 May 23 06:17 .spdx-yq.spdx
+
+common/bin:
+total 13852
+drwxr-xr-x 2 root root    4096 May 29 22:29 .
+drwxr-xr-x 7 root root    4096 May 29 22:29 ..
+-rwxr-xr-x 1 root root   43480 May 29 22:11 dltest
+-rwxr-xr-x 1 root root   39496 May 29 22:11 isql
+-rwxr-xr-x 1 root root   31176 May 29 22:11 iusql
+-rwxr-xr-x 1 root root   10337 Mar 17  2020 nss_wrapper.pl
+-rwxr-xr-x 1 root root   14456 May 29 22:11 odbc_config
+-rwxr-xr-x 1 root root   22888 May 29 22:11 odbcinst
+-rwxr-xr-x 1 root root   22976 May 29 22:19 protoc
+lrwxrwxrwx 1 root root      12 May 29 22:17 protoc-c -> protoc-gen-c
+-rwxr-xr-x 1 root root  265584 May 29 22:19 protoc-gen-c
+-rwxr-xr-x 1 root root 2666496 May 20 00:18 render-template
+-rwxr-xr-x 1 root root   14520 May 29 22:11 slencheck
+-rwxr-xr-x 1 root root 2088960 May 20 02:39 wait-for-port
+-rwxr-xr-x 1 root root 8941568 May 23 06:17 yq
+
+common/etc:
+total 12
+drwxr-xr-x 3 root root 4096 May 29 22:29 .
+drwxr-xr-x 7 root root 4096 May 29 22:29 ..
+drwxr-xr-x 2 root root 4096 Jan  1  1970 ODBCDataSources
+-rw-r--r-- 1 root root    0 May 29 22:11 odbc.ini
+-rw-r--r-- 1 root root    0 May 29 22:11 odbcinst.ini
+
+common/etc/ODBCDataSources:
+total 8
+drwxr-xr-x 2 root root 4096 Jan  1  1970 .
+drwxr-xr-x 3 root root 4096 May 29 22:29 ..
+
+common/include:
+total 236
+drwxr-xr-x 6 root root  4096 May 29 22:29 .
+drwxr-xr-x 7 root root  4096 May 29 22:29 ..
+-rw-r--r-- 1 root root  6198 May 29 22:11 autotest.h
+drwxr-xr-x 4 root root  4096 May 29 22:29 google
+drwxr-xr-x 4 root root  4096 May 19 16:27 modsecurity
+-rw-r--r-- 1 root root 11105 May 29 22:11 odbcinstext.h
+-rw-r--r-- 1 root root 18278 May 29 22:11 odbcinst.h
+drwxr-xr-x 2 root root  4096 May 29 22:29 protobuf-c
+-rw-r--r-- 1 root root 83256 May 29 22:11 sqlext.h
+-rw-r--r-- 1 root root 32379 May 29 22:11 sql.h
+-rw-r--r-- 1 root root  6983 May 29 22:11 sqlspi.h
+-rw-r--r-- 1 root root 11529 May 29 22:11 sqltypes.h
+-rw-r--r-- 1 root root 21666 May 29 22:11 sqlucode.h
+drwxr-xr-x 2 root root  4096 May 29 22:29 unixODBC
+-rw-r--r-- 1 root root   498 May 29 22:11 unixodbc.h
+-rw-r--r-- 1 root root  2301 May 29 22:11 uodbc_extras.h
+-rw-r--r-- 1 root root  2590 May 29 22:11 uodbc_stats.h
+
+common/include/google:
+total 16
+drwxr-xr-x 4 root root 4096 May 29 22:29 .
+drwxr-xr-x 6 root root 4096 May 29 22:29 ..
+drwxr-xr-x 6 root root 4096 May 29 22:29 protobuf
+drwxr-xr-x 2 root root 4096 May 29 22:29 protobuf-c
+
+common/include/google/protobuf:
+total 2164
+drwxr-xr-x  6 root root   4096 May 29 22:29 .
+drwxr-xr-x  4 root root   4096 May 29 22:29 ..
+-rw-r--r--  1 root root   6535 May 29 22:16 any.h
+-rw-r--r--  1 root root  13370 May 29 22:16 any.pb.h
+-rw-r--r--  1 root root   5909 May 29 22:16 any.proto
+-rw-r--r--  1 root root  50581 May 29 22:16 api.pb.h
+-rw-r--r--  1 root root   7734 May 29 22:16 api.proto
+-rw-r--r--  1 root root  35715 May 29 22:16 arena.h
+-rw-r--r--  1 root root  25197 May 29 22:16 arena_impl.h
+-rw-r--r--  1 root root  18851 May 29 22:16 arenastring.h
+-rw-r--r--  1 root root   7642 May 29 22:16 arenaz_sampler.h
+drwxr-xr-x 10 root root   4096 May 29 22:29 compiler
+-rw-r--r--  1 root root  18897 May 29 22:16 descriptor_database.h
+-rw-r--r--  1 root root 100824 May 29 22:16 descriptor.h
+-rw-r--r--  1 root root 595378 May 29 22:16 descriptor.pb.h
+-rw-r--r--  1 root root  38497 May 29 22:16 descriptor.proto
+-rw-r--r--  1 root root   8953 May 29 22:16 duration.pb.h
+-rw-r--r--  1 root root   4895 May 29 22:16 duration.proto
+-rw-r--r--  1 root root   9143 May 29 22:16 dynamic_message.h
+-rw-r--r--  1 root root   6708 May 29 22:16 empty.pb.h
+-rw-r--r--  1 root root   2429 May 29 22:16 empty.proto
+-rw-r--r--  1 root root   3927 May 29 22:16 explicitly_constructed.h
+-rw-r--r--  1 root root  70279 May 29 22:16 extension_set.h
+-rw-r--r--  1 root root  12753 May 29 22:16 extension_set_inl.h
+-rw-r--r--  1 root root   7457 May 29 22:16 field_access_listener.h
+-rw-r--r--  1 root root  11352 May 29 22:16 field_mask.pb.h
+-rw-r--r--  1 root root   8185 May 29 22:16 field_mask.proto
+-rw-r--r--  1 root root   4020 May 29 22:16 generated_enum_reflection.h
+-rw-r--r--  1 root root   3293 May 29 22:16 generated_enum_util.h
+-rw-r--r--  1 root root   3611 May 29 22:16 generated_message_bases.h
+-rw-r--r--  1 root root  14221 May 29 22:16 generated_message_reflection.h
+-rw-r--r--  1 root root  12372 May 29 22:16 generated_message_tctable_decl.h
+-rw-r--r--  1 root root  22847 May 29 22:16 generated_message_tctable_impl.h
+-rw-r--r--  1 root root   8241 May 29 22:16 generated_message_util.h
+-rw-r--r--  1 root root   3574 May 29 22:16 has_bits.h
+-rw-r--r--  1 root root   7794 May 29 22:16 implicit_weak_message.h
+-rw-r--r--  1 root root  21605 May 29 22:16 inlined_string_field.h
+drwxr-xr-x  2 root root   4096 May 29 22:29 io
+-rw-r--r--  1 root root   5743 May 29 22:16 map_entry.h
+-rw-r--r--  1 root root  21363 May 29 22:16 map_entry_lite.h
+-rw-r--r--  1 root root  34694 May 29 22:16 map_field.h
+-rw-r--r--  1 root root  14537 May 29 22:16 map_field_inl.h
+-rw-r--r--  1 root root   7783 May 29 22:16 map_field_lite.h
+-rw-r--r--  1 root root  49195 May 29 22:16 map.h
+-rw-r--r--  1 root root  34157 May 29 22:16 map_type_handler.h
+-rw-r--r--  1 root root  69579 May 29 22:16 message.h
+-rw-r--r--  1 root root  25703 May 29 22:16 message_lite.h
+-rw-r--r--  1 root root   1857 May 29 22:16 metadata.h
+-rw-r--r--  1 root root  10632 May 29 22:16 metadata_lite.h
+-rw-r--r--  1 root root  36175 May 29 22:16 parse_context.h
+-rw-r--r--  1 root root  32168 May 29 22:16 port_def.inc
+-rw-r--r--  1 root root   3094 May 29 22:16 port.h
+-rw-r--r--  1 root root   5204 May 29 22:16 port_undef.inc
+-rw-r--r--  1 root root  22903 May 29 22:16 reflection.h
+-rw-r--r--  1 root root   3836 May 29 22:16 reflection_ops.h
+-rw-r--r--  1 root root  42882 May 29 22:16 repeated_field.h
+-rw-r--r--  1 root root  69953 May 29 22:16 repeated_ptr_field.h
+-rw-r--r--  1 root root  13186 May 29 22:16 service.h
+-rw-r--r--  1 root root  10057 May 29 22:16 source_context.pb.h
+-rw-r--r--  1 root root   2341 May 29 22:16 source_context.proto
+-rw-r--r--  1 root root  41131 May 29 22:16 struct.pb.h
+-rw-r--r--  1 root root   3779 May 29 22:16 struct.proto
+drwxr-xr-x  2 root root   4096 May 29 22:29 stubs
+-rw-r--r--  1 root root  30921 May 29 22:16 text_format.h
+-rw-r--r--  1 root root   9013 May 29 22:16 timestamp.pb.h
+-rw-r--r--  1 root root   6459 May 29 22:16 timestamp.proto
+-rw-r--r--  1 root root  91463 May 29 22:16 type.pb.h
+-rw-r--r--  1 root root   6126 May 29 22:16 type.proto
+-rw-r--r--  1 root root  14172 May 29 22:16 unknown_field_set.h
+drwxr-xr-x  2 root root   4096 May 29 22:29 util
+-rw-r--r--  1 root root  18139 May 29 22:16 wire_format.h
+-rw-r--r--  1 root root  85735 May 29 22:16 wire_format_lite.h
+-rw-r--r--  1 root root  57452 May 29 22:16 wrappers.pb.h
+-rw-r--r--  1 root root   4042 May 29 22:16 wrappers.proto
+
+common/include/google/protobuf/compiler:
+total 212
+drwxr-xr-x 10 root root  4096 May 29 22:29 .
+drwxr-xr-x  6 root root  4096 May 29 22:29 ..
+-rw-r--r--  1 root root  8592 May 29 22:16 code_generator.h
+-rw-r--r--  1 root root 20307 May 29 22:16 command_line_interface.h
+drwxr-xr-x  2 root root  4096 May 29 22:29 cpp
+drwxr-xr-x  2 root root  4096 May 29 22:29 csharp
+-rw-r--r--  1 root root 14334 May 29 22:16 importer.h
+drwxr-xr-x  2 root root  4096 May 29 22:29 java
+drwxr-xr-x  2 root root  4096 May 29 22:29 js
+drwxr-xr-x  2 root root  4096 May 29 22:29 objectivec
+-rw-r--r--  1 root root 27683 May 29 22:16 parser.h
+drwxr-xr-x  2 root root  4096 May 29 22:29 php
+-rw-r--r--  1 root root  4376 May 29 22:16 plugin.h
+-rw-r--r--  1 root root 76379 May 29 22:16 plugin.pb.h
+-rw-r--r--  1 root root  8754 May 29 22:16 plugin.proto
+drwxr-xr-x  2 root root  4096 May 29 22:29 python
+drwxr-xr-x  2 root root  4096 May 29 22:29 ruby
+
+common/include/google/protobuf/compiler/cpp:
+total 72
+drwxr-xr-x  2 root root  4096 May 29 22:29 .
+drwxr-xr-x 10 root root  4096 May 29 22:29 ..
+-rw-r--r--  1 root root  8649 May 29 22:16 cpp_file.h
+-rw-r--r--  1 root root  4204 May 29 22:16 cpp_generator.h
+-rw-r--r--  1 root root 40882 May 29 22:16 cpp_helpers.h
+-rw-r--r--  1 root root  3792 May 29 22:16 cpp_names.h
+
+common/include/google/protobuf/compiler/csharp:
+total 28
+drwxr-xr-x  2 root root 4096 May 29 22:29 .
+drwxr-xr-x 10 root root 4096 May 29 22:29 ..
+-rw-r--r--  1 root root 2525 May 29 22:16 csharp_doc_comment.h
+-rw-r--r--  1 root root 2812 May 29 22:16 csharp_generator.h
+-rw-r--r--  1 root root 4180 May 29 22:16 csharp_names.h
+-rw-r--r--  1 root root 3591 May 29 22:16 csharp_options.h
+
+common/include/google/protobuf/compiler/java:
+total 20
+drwxr-xr-x  2 root root 4096 May 29 22:29 .
+drwxr-xr-x 10 root root 4096 May 29 22:29 ..
+-rw-r--r--  1 root root 3099 May 29 22:16 java_generator.h
+-rw-r--r--  1 root root 2995 May 29 22:16 java_kotlin_generator.h
+-rw-r--r--  1 root root 3277 May 29 22:16 java_names.h
+
+common/include/google/protobuf/compiler/js:
+total 24
+drwxr-xr-x  2 root root  4096 May 29 22:29 .
+drwxr-xr-x 10 root root  4096 May 29 22:29 ..
+-rw-r--r--  1 root root 15788 May 29 22:16 js_generator.h
+
+common/include/google/protobuf/compiler/objectivec:
+total 28
+drwxr-xr-x  2 root root  4096 May 29 22:29 .
+drwxr-xr-x 10 root root  4096 May 29 22:29 ..
+-rw-r--r--  1 root root  3399 May 29 22:16 objectivec_generator.h
+-rw-r--r--  1 root root 14100 May 29 22:16 objectivec_helpers.h
+
+common/include/google/protobuf/compiler/php:
+total 12
+drwxr-xr-x  2 root root 4096 May 29 22:29 .
+drwxr-xr-x 10 root root 4096 May 29 22:29 ..
+-rw-r--r--  1 root root 3548 May 29 22:16 php_generator.h
+
+common/include/google/protobuf/compiler/python:
+total 20
+drwxr-xr-x  2 root root 4096 May 29 22:29 .
+drwxr-xr-x 10 root root 4096 May 29 22:29 ..
+-rw-r--r--  1 root root 7924 May 29 22:16 python_generator.h
+-rw-r--r--  1 root root 4050 May 29 22:16 python_pyi_generator.h
+
+common/include/google/protobuf/compiler/ruby:
+total 12
+drwxr-xr-x  2 root root 4096 May 29 22:29 .
+drwxr-xr-x 10 root root 4096 May 29 22:29 ..
+-rw-r--r--  1 root root 2820 May 29 22:16 ruby_generator.h
+
+common/include/google/protobuf/io:
+total 188
+drwxr-xr-x 2 root root  4096 May 29 22:29 .
+drwxr-xr-x 6 root root  4096 May 29 22:29 ..
+-rw-r--r-- 1 root root 73743 May 29 22:16 coded_stream.h
+-rw-r--r-- 1 root root  6825 May 29 22:16 gzip_stream.h
+-rw-r--r-- 1 root root  5411 May 29 22:16 io_win32.h
+-rw-r--r-- 1 root root 15953 May 29 22:16 printer.h
+-rw-r--r-- 1 root root  2431 May 29 22:16 strtod.h
+-rw-r--r-- 1 root root 18080 May 29 22:16 tokenizer.h
+-rw-r--r-- 1 root root 10708 May 29 22:16 zero_copy_stream.h
+-rw-r--r-- 1 root root 13014 May 29 22:16 zero_copy_stream_impl.h
+-rw-r--r-- 1 root root 17098 May 29 22:16 zero_copy_stream_impl_lite.h
+
+common/include/google/protobuf/stubs:
+total 228
+drwxr-xr-x 2 root root  4096 May 29 22:29 .
+drwxr-xr-x 6 root root  4096 May 29 22:29 ..
+-rw-r--r-- 1 root root 11769 May 29 22:16 bytestream.h
+-rw-r--r-- 1 root root 17098 May 29 22:16 callback.h
+-rw-r--r-- 1 root root  5703 May 29 22:16 casts.h
+-rw-r--r-- 1 root root  7136 May 29 22:16 common.h
+-rw-r--r-- 1 root root  3911 May 29 22:16 hash.h
+-rw-r--r-- 1 root root  8952 May 29 22:16 logging.h
+-rw-r--r-- 1 root root  4117 May 29 22:16 macros.h
+-rw-r--r-- 1 root root 31213 May 29 22:16 map_util.h
+-rw-r--r-- 1 root root  7008 May 29 22:16 mutex.h
+-rw-r--r-- 1 root root  2184 May 29 22:16 once.h
+-rw-r--r-- 1 root root  5184 May 29 22:16 platform_macros.h
+-rw-r--r-- 1 root root 12953 May 29 22:16 port.h
+-rw-r--r-- 1 root root  8592 May 29 22:16 status.h
+-rw-r--r-- 1 root root  3933 May 29 22:16 stl_util.h
+-rw-r--r-- 1 root root 15092 May 29 22:16 stringpiece.h
+-rw-r--r-- 1 root root 39499 May 29 22:16 strutil.h
+-rw-r--r-- 1 root root  4834 May 29 22:16 template_util.h
+
+common/include/google/protobuf/util:
+total 120
+drwxr-xr-x 2 root root  4096 May 29 22:29 .
+drwxr-xr-x 6 root root  4096 May 29 22:29 ..
+-rw-r--r-- 1 root root  5425 May 29 22:16 delimited_message_util.h
+-rw-r--r-- 1 root root 11707 May 29 22:16 field_comparator.h
+-rw-r--r-- 1 root root 11413 May 29 22:16 field_mask_util.h
+-rw-r--r-- 1 root root  8593 May 29 22:16 json_util.h
+-rw-r--r-- 1 root root 47444 May 29 22:16 message_differencer.h
+-rw-r--r-- 1 root root 12254 May 29 22:16 time_util.h
+-rw-r--r-- 1 root root  2919 May 29 22:16 type_resolver.h
+-rw-r--r-- 1 root root  2433 May 29 22:16 type_resolver_util.h
+
+common/include/google/protobuf-c:
+total 8
+drwxr-xr-x 2 root root 4096 May 29 22:29 .
+drwxr-xr-x 4 root root 4096 May 29 22:29 ..
+lrwxrwxrwx 1 root root   29 May 29 22:17 protobuf-c.h -> ../../protobuf-c/protobuf-c.h
+
+common/include/modsecurity:
+total 152
+drwxr-xr-x 4 root root  4096 May 19 16:27 .
+drwxr-xr-x 6 root root  4096 May 29 22:29 ..
+drwxr-xr-x 2 root root  4096 May 19 16:27 actions
+-rw-r--r-- 1 root root  2881 May 19 16:13 anchored_set_variable.h
+-rw-r--r-- 1 root root  3686 May 19 16:13 anchored_set_variable_translation_proxy.h
+-rw-r--r-- 1 root root  2095 May 19 16:13 anchored_variable.h
+-rw-r--r-- 1 root root  5702 May 19 16:13 audit_log.h
+drwxr-xr-x 2 root root  4096 May 19 16:27 collection
+-rw-r--r-- 1 root root  1572 May 19 16:13 debug_log.h
+-rw-r--r-- 1 root root  1656 May 19 16:13 intervention.h
+-rw-r--r-- 1 root root  8563 May 19 16:13 modsecurity.h
+-rw-r--r-- 1 root root  3149 May 19 16:13 rule.h
+-rw-r--r-- 1 root root  2239 May 19 16:13 rule_marker.h
+-rw-r--r-- 1 root root  6634 May 19 16:13 rule_message.h
+-rw-r--r-- 1 root root  2934 May 19 16:13 rules_exceptions.h
+-rw-r--r-- 1 root root  2861 May 19 16:13 rules.h
+-rw-r--r-- 1 root root  2648 May 19 16:13 rules_set.h
+-rw-r--r-- 1 root root  1378 May 19 16:13 rules_set_phases.h
+-rw-r--r-- 1 root root 14497 May 19 16:13 rules_set_properties.h
+-rw-r--r-- 1 root root  1797 May 19 16:13 rule_unconditional.h
+-rw-r--r-- 1 root root  5934 May 19 16:13 rule_with_actions.h
+-rw-r--r-- 1 root root  2317 May 19 16:13 rule_with_operator.h
+-rw-r--r-- 1 root root 23634 May 19 16:13 transaction.h
+-rw-r--r-- 1 root root  1227 May 19 16:13 variable_origin.h
+-rw-r--r-- 1 root root  2848 May 19 16:13 variable_value.h
+
+common/include/modsecurity/actions:
+total 12
+drwxr-xr-x 2 root root 4096 May 19 16:27 .
+drwxr-xr-x 4 root root 4096 May 19 16:27 ..
+-rw-r--r-- 1 root root 4066 May 19 16:13 action.h
+
+common/include/modsecurity/collection:
+total 20
+drwxr-xr-x 2 root root 4096 May 19 16:27 .
+drwxr-xr-x 4 root root 4096 May 19 16:27 ..
+-rw-r--r-- 1 root root 6288 May 19 16:13 collection.h
+-rw-r--r-- 1 root root 1917 May 19 16:13 collections.h
+
+common/include/protobuf-c:
+total 48
+drwxr-xr-x 2 root root  4096 May 29 22:29 .
+drwxr-xr-x 6 root root  4096 May 29 22:29 ..
+-rw-r--r-- 1 root root 33675 May 29 22:17 protobuf-c.h
+-rw-r--r-- 1 root root  3297 May 29 22:17 protobuf-c.proto
+
+common/include/unixODBC:
+total 40
+drwxr-xr-x 2 root root  4096 May 29 22:29 .
+drwxr-xr-x 6 root root  4096 May 29 22:29 ..
+-rw-r--r-- 1 root root 14946 May 29 22:11 config.h
+-rw-r--r-- 1 root root 13322 May 29 22:11 unixodbc_conf.h
+
+common/lib:
+total 9672
+drwxr-xr-x 4 root root    4096 May 29 22:29 .
+drwxr-xr-x 7 root root    4096 May 29 22:29 ..
+drwxr-xr-x 3 root root    4096 May 29 22:29 cmake
+lrwxrwxrwx 1 root root      23 May 19 16:13 libmodsecurity.so -> libmodsecurity.so.3.0.9
+lrwxrwxrwx 1 root root      23 May 19 16:13 libmodsecurity.so.3 -> libmodsecurity.so.3.0.9
+-rwxr-xr-x 1 root root 2426224 May 19 16:14 libmodsecurity.so.3.0.9
+lrwxrwxrwx 1 root root      19 May 29 22:18 libnss_wrapper.so -> libnss_wrapper.so.0
+lrwxrwxrwx 1 root root      23 May 29 22:18 libnss_wrapper.so.0 -> libnss_wrapper.so.0.3.4
+-rw-r--r-- 1 root root   80752 May 29 22:18 libnss_wrapper.so.0.3.4
+lrwxrwxrwx 1 root root      18 May 29 22:11 libodbccr.so -> libodbccr.so.2.0.0
+lrwxrwxrwx 1 root root      18 May 29 22:11 libodbccr.so.2 -> libodbccr.so.2.0.0
+-rwxr-xr-x 1 root root   52168 May 29 22:19 libodbccr.so.2.0.0
+lrwxrwxrwx 1 root root      20 May 29 22:11 libodbcinst.so -> libodbcinst.so.2.0.0
+lrwxrwxrwx 1 root root      20 May 29 22:11 libodbcinst.so.2 -> libodbcinst.so.2.0.0
+-rwxr-xr-x 1 root root  117912 May 29 22:19 libodbcinst.so.2.0.0
+lrwxrwxrwx 1 root root      16 May 29 22:11 libodbc.so -> libodbc.so.2.0.0
+lrwxrwxrwx 1 root root      16 May 29 22:11 libodbc.so.2 -> libodbc.so.2.0.0
+-rwxr-xr-x 1 root root  608664 May 29 22:19 libodbc.so.2.0.0
+lrwxrwxrwx 1 root root      22 May 29 22:17 libprotobuf-c.so -> libprotobuf-c.so.1.0.0
+lrwxrwxrwx 1 root root      22 May 29 22:17 libprotobuf-c.so.1 -> libprotobuf-c.so.1.0.0
+-rwxr-xr-x 1 root root   39056 May 29 22:19 libprotobuf-c.so.1.0.0
+lrwxrwxrwx 1 root root      26 May 29 22:16 libprotobuf-lite.so -> libprotobuf-lite.so.31.0.3
+lrwxrwxrwx 1 root root      26 May 29 22:16 libprotobuf-lite.so.31 -> libprotobuf-lite.so.31.0.3
+-rwxr-xr-x 1 root root  616328 May 29 22:19 libprotobuf-lite.so.31.0.3
+lrwxrwxrwx 1 root root      21 May 29 22:16 libprotobuf.so -> libprotobuf.so.31.0.3
+lrwxrwxrwx 1 root root      21 May 29 22:16 libprotobuf.so.31 -> libprotobuf.so.31.0.3
+-rwxr-xr-x 1 root root 2798560 May 29 22:19 libprotobuf.so.31.0.3
+lrwxrwxrwx 1 root root      19 May 29 22:16 libprotoc.so -> libprotoc.so.31.0.3
+lrwxrwxrwx 1 root root      19 May 29 22:16 libprotoc.so.31 -> libprotoc.so.31.0.3
+-rwxr-xr-x 1 root root 3132672 May 29 22:19 libprotoc.so.31.0.3
+drwxr-xr-x 2 root root    4096 May 29 22:29 pkgconfig
+
+common/lib/cmake:
+total 12
+drwxr-xr-x 3 root root 4096 May 29 22:29 .
+drwxr-xr-x 4 root root 4096 May 29 22:29 ..
+drwxr-xr-x 2 root root 4096 May 29 22:29 nss_wrapper
+
+common/lib/cmake/nss_wrapper:
+total 16
+drwxr-xr-x 2 root root 4096 May 29 22:29 .
+drwxr-xr-x 3 root root 4096 May 29 22:29 ..
+-rw-r--r-- 1 root root  596 May 29 22:18 nss_wrapper-config.cmake
+-rw-r--r-- 1 root root 1717 May 29 22:18 nss_wrapper-config-version.cmake
+
+common/lib/pkgconfig:
+total 40
+drwxr-xr-x 2 root root 4096 May 29 22:29 .
+drwxr-xr-x 4 root root 4096 May 29 22:29 ..
+-rw-r--r-- 1 root root  328 May 29 22:17 libprotobuf-c.pc
+-rw-r--r-- 1 root root  285 May 19 16:13 modsecurity.pc
+-rw-r--r-- 1 root root  119 May 29 22:18 nss_wrapper.pc
+-rw-r--r-- 1 root root  273 May 29 22:11 odbccr.pc
+-rw-r--r-- 1 root root  333 May 29 22:11 odbcinst.pc
+-rw-r--r-- 1 root root  579 May 29 22:11 odbc.pc
+-rw-r--r-- 1 root root  268 May 29 22:16 protobuf-lite.pc
+-rw-r--r-- 1 root root  288 May 29 22:16 protobuf.pc
+
+common/licenses:
+total 68
+drwxr-xr-x 2 root root  4096 May 29 22:29 .
+drwxr-xr-x 7 root root  4096 May 29 22:29 ..
+-rw-r--r-- 1 root root 11357 May 19 16:13 modsecurity-3.0.9.txt
+-rw-r--r-- 1 root root    57 May 29 22:18 nss_wrapper-1.1.15.txt
+-rw-r--r-- 1 root root    57 May 29 22:16 protobuf-3.20.3.txt
+-rw-r--r-- 1 root root    57 May 29 22:17 protobuf-c-1.4.1.txt
+-rw-r--r-- 1 root root    53 May 20 00:18 render-template-1.0.5.txt
+-rw-r--r-- 1 root root 24431 May 29 22:11 unixodbc-2.3.11.txt
+-rw-r--r-- 1 root root    53 May 20 02:39 wait-for-port-1.0.6.txt
+-rw-r--r-- 1 root root  1077 May 23 06:17 yq-4.34.1.txt

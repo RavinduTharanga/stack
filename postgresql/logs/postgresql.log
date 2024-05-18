@@ -1,0 +1,223 @@
+2024-05-18 02:28:50.679 GMT [1509] LOG:  redirecting log output to logging collector process
+2024-05-18 02:28:50.679 GMT [1509] HINT:  Future log output will appear in directory "/opt/bitnami/postgresql/logs".
+2024-05-18 02:28:50.679 GMT [1509] LOG:  starting PostgreSQL 14.8 on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit
+2024-05-18 02:28:50.680 GMT [1509] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-05-18 02:28:50.685 GMT [1509] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-05-18 02:28:50.692 GMT [1511] LOG:  database system was shut down at 2024-05-18 02:28:49 GMT
+2024-05-18 02:28:50.697 GMT [1509] LOG:  database system is ready to accept connections
+2024-05-18 02:28:51.794 GMT [1509] LOG:  received fast shutdown request
+2024-05-18 02:28:51.831 GMT [1509] LOG:  aborting any active transactions
+2024-05-18 02:28:51.833 GMT [1509] LOG:  background worker "logical replication launcher" (PID 1517) exited with exit code 1
+2024-05-18 02:28:51.833 GMT [1512] LOG:  shutting down
+2024-05-18 02:28:51.854 GMT [1509] LOG:  database system is shut down
+2024-05-18 02:28:52.474 GMT [1603] LOG:  starting PostgreSQL 14.8 on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit
+2024-05-18 02:28:52.474 GMT [1603] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-05-18 02:28:52.480 GMT [1603] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-05-18 02:28:52.548 GMT [1616] LOG:  database system was shut down at 2024-05-18 02:28:51 GMT
+2024-05-18 02:28:52.555 GMT [1603] LOG:  database system is ready to accept connections
+2024-05-18 02:31:01.661 GMT [1808] ERROR:  relation "public.switchman_shards" does not exist at character 491
+2024-05-18 02:31:01.661 GMT [1808] STATEMENT:  SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+	       pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod,
+	       c.collname, col_description(a.attrelid, a.attnum) AS comment,
+	       attgenerated as attgenerated
+	  FROM pg_attribute a
+	  LEFT JOIN pg_attrdef d ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+	  LEFT JOIN pg_type t ON a.atttypid = t.oid
+	  LEFT JOIN pg_collation c ON a.attcollation = c.oid AND a.attcollation <> t.typcollation
+	 WHERE a.attrelid = '"public"."switchman_shards"'::regclass
+	   AND a.attnum > 0 AND NOT a.attisdropped
+	 ORDER BY a.attnum
+	
+2024-05-18 02:31:03.543 GMT [1808] ERROR:  relation "public.settings" does not exist at character 491
+2024-05-18 02:31:03.543 GMT [1808] STATEMENT:  SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+	       pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod,
+	       c.collname, col_description(a.attrelid, a.attnum) AS comment,
+	       attgenerated as attgenerated
+	  FROM pg_attribute a
+	  LEFT JOIN pg_attrdef d ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+	  LEFT JOIN pg_type t ON a.atttypid = t.oid
+	  LEFT JOIN pg_collation c ON a.attcollation = c.oid AND a.attcollation <> t.typcollation
+	 WHERE a.attrelid = '"public"."settings"'::regclass
+	   AND a.attnum > 0 AND NOT a.attisdropped
+	 ORDER BY a.attnum
+	
+2024-05-18 02:31:05.246 GMT [1808] ERROR:  relation "public.settings" does not exist at character 491
+2024-05-18 02:31:05.246 GMT [1808] STATEMENT:  SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+	       pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod,
+	       c.collname, col_description(a.attrelid, a.attnum) AS comment,
+	       attgenerated as attgenerated
+	  FROM pg_attribute a
+	  LEFT JOIN pg_attrdef d ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+	  LEFT JOIN pg_type t ON a.atttypid = t.oid
+	  LEFT JOIN pg_collation c ON a.attcollation = c.oid AND a.attcollation <> t.typcollation
+	 WHERE a.attrelid = '"public"."settings"'::regclass
+	   AND a.attnum > 0 AND NOT a.attisdropped
+	 ORDER BY a.attnum
+	
+2024-05-18 02:31:05.250 GMT [1808] ERROR:  relation "public.settings" does not exist at character 491
+2024-05-18 02:31:05.250 GMT [1808] STATEMENT:  SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+	       pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod,
+	       c.collname, col_description(a.attrelid, a.attnum) AS comment,
+	       attgenerated as attgenerated
+	  FROM pg_attribute a
+	  LEFT JOIN pg_attrdef d ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+	  LEFT JOIN pg_type t ON a.atttypid = t.oid
+	  LEFT JOIN pg_collation c ON a.attcollation = c.oid AND a.attcollation <> t.typcollation
+	 WHERE a.attrelid = '"public"."settings"'::regclass
+	   AND a.attnum > 0 AND NOT a.attisdropped
+	 ORDER BY a.attnum
+	
+2024-05-18 02:31:11.884 GMT [1808] ERROR:  relation "public.settings" does not exist at character 491
+2024-05-18 02:31:11.884 GMT [1808] STATEMENT:  SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+	       pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod,
+	       c.collname, col_description(a.attrelid, a.attnum) AS comment,
+	       attgenerated as attgenerated
+	  FROM pg_attribute a
+	  LEFT JOIN pg_attrdef d ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+	  LEFT JOIN pg_type t ON a.atttypid = t.oid
+	  LEFT JOIN pg_collation c ON a.attcollation = c.oid AND a.attcollation <> t.typcollation
+	 WHERE a.attrelid = '"public"."settings"'::regclass
+	   AND a.attnum > 0 AND NOT a.attisdropped
+	 ORDER BY a.attnum
+	
+2024-05-18 02:31:11.889 GMT [1808] ERROR:  relation "public.settings" does not exist at character 491
+2024-05-18 02:31:11.889 GMT [1808] STATEMENT:  SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+	       pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod,
+	       c.collname, col_description(a.attrelid, a.attnum) AS comment,
+	       attgenerated as attgenerated
+	  FROM pg_attribute a
+	  LEFT JOIN pg_attrdef d ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+	  LEFT JOIN pg_type t ON a.atttypid = t.oid
+	  LEFT JOIN pg_collation c ON a.attcollation = c.oid AND a.attcollation <> t.typcollation
+	 WHERE a.attrelid = '"public"."settings"'::regclass
+	   AND a.attnum > 0 AND NOT a.attisdropped
+	 ORDER BY a.attnum
+	
+2024-05-18 02:31:11.893 GMT [1808] ERROR:  relation "public.settings" does not exist at character 491
+2024-05-18 02:31:11.893 GMT [1808] STATEMENT:  SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+	       pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod,
+	       c.collname, col_description(a.attrelid, a.attnum) AS comment,
+	       attgenerated as attgenerated
+	  FROM pg_attribute a
+	  LEFT JOIN pg_attrdef d ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+	  LEFT JOIN pg_type t ON a.atttypid = t.oid
+	  LEFT JOIN pg_collation c ON a.attcollation = c.oid AND a.attcollation <> t.typcollation
+	 WHERE a.attrelid = '"public"."settings"'::regclass
+	   AND a.attnum > 0 AND NOT a.attisdropped
+	 ORDER BY a.attnum
+	
+2024-05-18 02:31:19.674 GMT [1811] ERROR:  relation "public.switchman_shards" does not exist at character 491
+2024-05-18 02:31:19.674 GMT [1811] STATEMENT:  SELECT a.attname, format_type(a.atttypid, a.atttypmod),
+	       pg_get_expr(d.adbin, d.adrelid), a.attnotnull, a.atttypid, a.atttypmod,
+	       c.collname, col_description(a.attrelid, a.attnum) AS comment,
+	       attgenerated as attgenerated
+	  FROM pg_attribute a
+	  LEFT JOIN pg_attrdef d ON a.attrelid = d.adrelid AND a.attnum = d.adnum
+	  LEFT JOIN pg_type t ON a.atttypid = t.oid
+	  LEFT JOIN pg_collation c ON a.attcollation = c.oid AND a.attcollation <> t.typcollation
+	 WHERE a.attrelid = '"public"."switchman_shards"'::regclass
+	   AND a.attnum > 0 AND NOT a.attisdropped
+	 ORDER BY a.attnum
+	
+2024-05-18 02:31:21.858 GMT [1813] ERROR:  could not open extension control file "/opt/bitnami/postgresql/share/extension/pg_collkey.control": No such file or directory
+2024-05-18 02:31:21.858 GMT [1813] STATEMENT:  CREATE EXTENSION IF NOT EXISTS pg_collkey SCHEMA public
+2024-05-18 02:36:31.273 GMT [3582] ERROR:  duplicate key value violates unique constraint "index_user_account_associations_on_user_id_and_account_id"
+2024-05-18 02:36:31.273 GMT [3582] DETAIL:  Key (user_id, account_id)=(1, 1) already exists.
+2024-05-18 02:36:31.273 GMT [3582] STATEMENT:  INSERT INTO "public"."user_account_associations" ("user_id", "account_id", "depth", "created_at", "updated_at", "root_account_id") VALUES (1, 1, 0, '2024-05-18 02:36:31.244577', '2024-05-18 02:36:31.244577', 1) RETURNING "id"
+2024-05-18 02:53:45.303 GMT [1603] LOG:  received fast shutdown request
+2024-05-18 02:53:45.307 GMT [1603] LOG:  aborting any active transactions
+2024-05-18 02:53:45.308 GMT [3888] FATAL:  terminating connection due to administrator command
+2024-05-18 02:53:45.310 GMT [3576] FATAL:  terminating connection due to administrator command
+2024-05-18 02:53:45.311 GMT [3565] FATAL:  terminating connection due to administrator command
+2024-05-18 02:53:45.312 GMT [4079] FATAL:  terminating connection due to administrator command
+2024-05-18 02:53:45.313 GMT [3561] FATAL:  terminating connection due to administrator command
+2024-05-18 02:53:45.313 GMT [3568] FATAL:  terminating connection due to administrator command
+2024-05-18 02:53:45.314 GMT [3573] FATAL:  terminating connection due to administrator command
+2024-05-18 02:53:45.314 GMT [3555] FATAL:  terminating connection due to administrator command
+2024-05-18 02:53:45.316 GMT [3885] FATAL:  terminating connection due to administrator command
+2024-05-18 02:53:45.317 GMT [4080] FATAL:  terminating connection due to administrator command
+2024-05-18 02:53:45.317 GMT [3851] FATAL:  terminating connection due to administrator command
+2024-05-18 02:53:45.318 GMT [1603] LOG:  background worker "logical replication launcher" (PID 1622) exited with exit code 1
+2024-05-18 02:53:45.318 GMT [1617] LOG:  shutting down
+2024-05-18 02:53:45.356 GMT [1603] LOG:  database system is shut down
+2024-05-18 12:16:49.936 GMT [2361] LOG:  starting PostgreSQL 14.8 on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit
+2024-05-18 12:16:49.937 GMT [2361] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-05-18 12:16:49.942 GMT [2361] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-05-18 12:16:49.968 GMT [2374] LOG:  database system was shut down at 2024-05-18 02:53:45 GMT
+2024-05-18 12:16:49.992 GMT [2361] LOG:  database system is ready to accept connections
+2024-05-18 15:10:33.674 GMT [2361] LOG:  received fast shutdown request
+2024-05-18 15:10:33.677 GMT [2361] LOG:  aborting any active transactions
+2024-05-18 15:10:33.679 GMT [9459] FATAL:  terminating connection due to administrator command
+2024-05-18 15:10:33.680 GMT [9458] FATAL:  terminating connection due to administrator command
+2024-05-18 15:10:33.682 GMT [9457] FATAL:  terminating connection due to administrator command
+2024-05-18 15:10:33.682 GMT [8639] FATAL:  terminating connection due to administrator command
+2024-05-18 15:10:33.683 GMT [2643] FATAL:  terminating connection due to administrator command
+2024-05-18 15:10:33.683 GMT [2648] FATAL:  terminating connection due to administrator command
+2024-05-18 15:10:33.684 GMT [2644] FATAL:  terminating connection due to administrator command
+2024-05-18 15:10:33.685 GMT [2656] FATAL:  terminating connection due to administrator command
+2024-05-18 15:10:33.686 GMT [2635] FATAL:  terminating connection due to administrator command
+2024-05-18 15:10:33.686 GMT [8640] FATAL:  terminating connection due to administrator command
+2024-05-18 15:10:33.687 GMT [2650] FATAL:  terminating connection due to administrator command
+2024-05-18 15:10:33.687 GMT [9456] FATAL:  terminating connection due to administrator command
+2024-05-18 15:10:33.688 GMT [2361] LOG:  background worker "logical replication launcher" (PID 2380) exited with exit code 1
+2024-05-18 15:10:33.688 GMT [2375] LOG:  shutting down
+2024-05-18 15:10:33.722 GMT [2361] LOG:  database system is shut down
+2024-05-18 15:11:24.922 GMT [2134] LOG:  starting PostgreSQL 14.8 on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit
+2024-05-18 15:11:24.922 GMT [2134] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-05-18 15:11:24.928 GMT [2134] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-05-18 15:11:24.954 GMT [2147] LOG:  database system was shut down at 2024-05-18 15:10:33 GMT
+2024-05-18 15:11:24.977 GMT [2134] LOG:  database system is ready to accept connections
+2024-05-18 15:15:55.702 GMT [2134] LOG:  received fast shutdown request
+2024-05-18 15:15:55.705 GMT [2134] LOG:  aborting any active transactions
+2024-05-18 15:15:55.706 GMT [2545] FATAL:  terminating connection due to administrator command
+2024-05-18 15:15:55.708 GMT [2542] FATAL:  terminating connection due to administrator command
+2024-05-18 15:15:55.709 GMT [2541] FATAL:  terminating connection due to administrator command
+2024-05-18 15:15:55.710 GMT [2543] FATAL:  terminating connection due to administrator command
+2024-05-18 15:15:55.710 GMT [2536] FATAL:  terminating connection due to administrator command
+2024-05-18 15:15:55.711 GMT [2539] FATAL:  terminating connection due to administrator command
+2024-05-18 15:15:55.712 GMT [2472] FATAL:  terminating connection due to administrator command
+2024-05-18 15:15:55.712 GMT [2534] FATAL:  terminating connection due to administrator command
+2024-05-18 15:15:55.713 GMT [2530] FATAL:  terminating connection due to administrator command
+2024-05-18 15:15:55.713 GMT [2524] FATAL:  terminating connection due to administrator command
+2024-05-18 15:15:55.714 GMT [2525] FATAL:  terminating connection due to administrator command
+2024-05-18 15:15:55.714 GMT [2535] FATAL:  terminating connection due to administrator command
+2024-05-18 15:15:55.715 GMT [2537] FATAL:  terminating connection due to administrator command
+2024-05-18 15:15:55.716 GMT [2473] FATAL:  terminating connection due to administrator command
+2024-05-18 15:15:55.716 GMT [2538] FATAL:  terminating connection due to administrator command
+2024-05-18 15:15:55.717 GMT [2518] FATAL:  terminating connection due to administrator command
+2024-05-18 15:15:55.717 GMT [2517] FATAL:  terminating connection due to administrator command
+2024-05-18 15:15:55.718 GMT [2134] LOG:  background worker "logical replication launcher" (PID 2153) exited with exit code 1
+2024-05-18 15:15:55.718 GMT [2544] FATAL:  terminating connection due to administrator command
+2024-05-18 15:15:55.719 GMT [2540] FATAL:  terminating connection due to administrator command
+2024-05-18 15:15:55.720 GMT [2148] LOG:  shutting down
+2024-05-18 15:15:55.762 GMT [2134] LOG:  database system is shut down
+2024-05-18 15:16:48.401 GMT [2097] LOG:  starting PostgreSQL 14.8 on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit
+2024-05-18 15:16:48.401 GMT [2097] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-05-18 15:16:48.407 GMT [2097] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-05-18 15:16:48.429 GMT [2110] LOG:  database system was shut down at 2024-05-18 15:15:55 GMT
+2024-05-18 15:16:48.450 GMT [2097] LOG:  database system is ready to accept connections
+2024-05-18 20:05:28.593 GMT [2097] LOG:  received fast shutdown request
+2024-05-18 20:05:28.597 GMT [2097] LOG:  aborting any active transactions
+2024-05-18 20:05:28.597 GMT [16451] FATAL:  terminating connection due to administrator command
+2024-05-18 20:05:28.597 GMT [16428] FATAL:  terminating connection due to administrator command
+2024-05-18 20:05:28.598 GMT [16450] FATAL:  terminating connection due to administrator command
+2024-05-18 20:05:28.598 GMT [15855] FATAL:  terminating connection due to administrator command
+2024-05-18 20:05:28.599 GMT [16429] FATAL:  terminating connection due to administrator command
+2024-05-18 20:05:28.600 GMT [13757] FATAL:  terminating connection due to administrator command
+2024-05-18 20:05:28.600 GMT [16427] FATAL:  terminating connection due to administrator command
+2024-05-18 20:05:28.601 GMT [13756] FATAL:  terminating connection due to administrator command
+2024-05-18 20:05:28.602 GMT [16426] FATAL:  terminating connection due to administrator command
+2024-05-18 20:05:28.602 GMT [2563] FATAL:  terminating connection due to administrator command
+2024-05-18 20:05:28.603 GMT [2560] FATAL:  terminating connection due to administrator command
+2024-05-18 20:05:28.604 GMT [2543] FATAL:  terminating connection due to administrator command
+2024-05-18 20:05:28.604 GMT [2556] FATAL:  terminating connection due to administrator command
+2024-05-18 20:05:28.606 GMT [2552] FATAL:  terminating connection due to administrator command
+2024-05-18 20:05:28.607 GMT [2551] FATAL:  terminating connection due to administrator command
+2024-05-18 20:05:28.607 GMT [2097] LOG:  background worker "logical replication launcher" (PID 2116) exited with exit code 1
+2024-05-18 20:05:28.609 GMT [2111] LOG:  shutting down
+2024-05-18 20:05:28.644 GMT [2097] LOG:  database system is shut down
+2024-05-18 21:26:31.677 GMT [1941] LOG:  starting PostgreSQL 14.8 on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit
+2024-05-18 21:26:31.677 GMT [1941] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-05-18 21:26:31.687 GMT [1941] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-05-18 21:26:31.714 GMT [1954] LOG:  database system was shut down at 2024-05-18 20:05:28 GMT
+2024-05-18 21:26:31.755 GMT [1941] LOG:  database system is ready to accept connections

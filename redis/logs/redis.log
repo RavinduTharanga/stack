@@ -1,0 +1,98 @@
+1397:C 18 May 2024 02:28:36.842 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1397:C 18 May 2024 02:28:36.842 # Redis version=7.0.11, bits=64, commit=00000000, modified=0, pid=1397, just started
+1397:C 18 May 2024 02:28:36.842 # Configuration loaded
+1397:M 18 May 2024 02:28:36.843 * monotonic clock: POSIX clock_gettime
+1397:M 18 May 2024 02:28:36.846 * Running mode=standalone, port=6379.
+1397:M 18 May 2024 02:28:36.846 # Server initialized
+1397:M 18 May 2024 02:28:36.846 # WARNING Your system is configured to use the 'xen' clocksource which might lead to degraded performance. Check the result of the [slow-clocksource] system check: run 'redis-server --check-system' to check if the system's clocksource isn't degrading performance.
+1397:M 18 May 2024 02:28:36.893 * Creating AOF base file appendonly.aof.1.base.rdb on server start
+1397:M 18 May 2024 02:28:36.897 * Creating AOF incr file appendonly.aof.1.incr.aof on server start
+1397:M 18 May 2024 02:28:36.897 * Ready to accept connections
+1397:M 18 May 2024 02:53:43.060 # User requested shutdown...
+1397:M 18 May 2024 02:53:43.060 * Calling fsync() on the AOF file.
+1397:M 18 May 2024 02:53:43.060 * Removing the pid file.
+1397:M 18 May 2024 02:53:43.060 # Redis is now ready to exit, bye bye...
+1052:C 18 May 2024 12:16:38.319 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1052:C 18 May 2024 12:16:38.320 # Redis version=7.0.11, bits=64, commit=00000000, modified=0, pid=1052, just started
+1052:C 18 May 2024 12:16:38.320 # Configuration loaded
+1052:M 18 May 2024 12:16:38.320 * monotonic clock: POSIX clock_gettime
+1052:M 18 May 2024 12:16:38.324 * Running mode=standalone, port=6379.
+1052:M 18 May 2024 12:16:38.324 # Server initialized
+1052:M 18 May 2024 12:16:38.324 # WARNING Your system is configured to use the 'xen' clocksource which might lead to degraded performance. Check the result of the [slow-clocksource] system check: run 'redis-server --check-system' to check if the system's clocksource isn't degrading performance.
+1052:M 18 May 2024 12:16:38.330 * Reading RDB base file on AOF loading...
+1052:M 18 May 2024 12:16:38.330 * Loading RDB produced by version 7.0.11
+1052:M 18 May 2024 12:16:38.330 * RDB age 35282 seconds
+1052:M 18 May 2024 12:16:38.330 * RDB memory usage when created 0.36 Mb
+1052:M 18 May 2024 12:16:38.330 * RDB is base AOF
+1052:M 18 May 2024 12:16:38.330 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1052:M 18 May 2024 12:16:38.330 * DB loaded from base file appendonly.aof.1.base.rdb: 0.001 seconds
+1052:M 18 May 2024 12:16:38.334 * DB loaded from incr file appendonly.aof.1.incr.aof: 0.004 seconds
+1052:M 18 May 2024 12:16:38.334 * DB loaded from append only file: 0.005 seconds
+1052:M 18 May 2024 12:16:38.334 * Opening AOF incr file appendonly.aof.1.incr.aof on server start
+1052:M 18 May 2024 12:16:38.334 * Ready to accept connections
+1052:M 18 May 2024 15:10:31.415 # User requested shutdown...
+1052:M 18 May 2024 15:10:31.415 * Calling fsync() on the AOF file.
+1052:M 18 May 2024 15:10:31.415 * Removing the pid file.
+1052:M 18 May 2024 15:10:31.415 # Redis is now ready to exit, bye bye...
+750:C 18 May 2024 15:11:13.139 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+750:C 18 May 2024 15:11:13.139 # Redis version=7.0.11, bits=64, commit=00000000, modified=0, pid=750, just started
+750:C 18 May 2024 15:11:13.139 # Configuration loaded
+750:M 18 May 2024 15:11:13.140 * monotonic clock: POSIX clock_gettime
+750:M 18 May 2024 15:11:13.143 * Running mode=standalone, port=6379.
+750:M 18 May 2024 15:11:13.143 # Server initialized
+750:M 18 May 2024 15:11:13.143 # WARNING Your system is configured to use the 'xen' clocksource which might lead to degraded performance. Check the result of the [slow-clocksource] system check: run 'redis-server --check-system' to check if the system's clocksource isn't degrading performance.
+750:M 18 May 2024 15:11:13.148 * Reading RDB base file on AOF loading...
+750:M 18 May 2024 15:11:13.148 * Loading RDB produced by version 7.0.11
+750:M 18 May 2024 15:11:13.148 * RDB age 45757 seconds
+750:M 18 May 2024 15:11:13.148 * RDB memory usage when created 0.36 Mb
+750:M 18 May 2024 15:11:13.148 * RDB is base AOF
+750:M 18 May 2024 15:11:13.148 * Done loading RDB, keys loaded: 0, keys expired: 0.
+750:M 18 May 2024 15:11:13.148 * DB loaded from base file appendonly.aof.1.base.rdb: 0.001 seconds
+750:M 18 May 2024 15:11:13.164 * DB loaded from incr file appendonly.aof.1.incr.aof: 0.016 seconds
+750:M 18 May 2024 15:11:13.164 * DB loaded from append only file: 0.018 seconds
+750:M 18 May 2024 15:11:13.164 * Opening AOF incr file appendonly.aof.1.incr.aof on server start
+750:M 18 May 2024 15:11:13.164 * Ready to accept connections
+750:M 18 May 2024 15:15:39.418 # User requested shutdown...
+750:M 18 May 2024 15:15:39.418 * Calling fsync() on the AOF file.
+750:M 18 May 2024 15:15:39.418 * Removing the pid file.
+750:M 18 May 2024 15:15:39.418 # Redis is now ready to exit, bye bye...
+627:C 18 May 2024 15:16:36.631 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+627:C 18 May 2024 15:16:36.631 # Redis version=7.0.11, bits=64, commit=00000000, modified=0, pid=627, just started
+627:C 18 May 2024 15:16:36.631 # Configuration loaded
+627:M 18 May 2024 15:16:36.632 * monotonic clock: POSIX clock_gettime
+627:M 18 May 2024 15:16:36.636 * Running mode=standalone, port=6379.
+627:M 18 May 2024 15:16:36.636 # Server initialized
+627:M 18 May 2024 15:16:36.636 # WARNING Your system is configured to use the 'xen' clocksource which might lead to degraded performance. Check the result of the [slow-clocksource] system check: run 'redis-server --check-system' to check if the system's clocksource isn't degrading performance.
+627:M 18 May 2024 15:16:36.641 * Reading RDB base file on AOF loading...
+627:M 18 May 2024 15:16:36.641 * Loading RDB produced by version 7.0.11
+627:M 18 May 2024 15:16:36.641 * RDB age 46080 seconds
+627:M 18 May 2024 15:16:36.641 * RDB memory usage when created 0.36 Mb
+627:M 18 May 2024 15:16:36.641 * RDB is base AOF
+627:M 18 May 2024 15:16:36.641 * Done loading RDB, keys loaded: 0, keys expired: 0.
+627:M 18 May 2024 15:16:36.641 * DB loaded from base file appendonly.aof.1.base.rdb: 0.001 seconds
+627:M 18 May 2024 15:16:36.660 * DB loaded from incr file appendonly.aof.1.incr.aof: 0.019 seconds
+627:M 18 May 2024 15:16:36.660 * DB loaded from append only file: 0.021 seconds
+627:M 18 May 2024 15:16:36.660 * Opening AOF incr file appendonly.aof.1.incr.aof on server start
+627:M 18 May 2024 15:16:36.660 * Ready to accept connections
+627:M 18 May 2024 20:05:26.339 # User requested shutdown...
+627:M 18 May 2024 20:05:26.339 * Calling fsync() on the AOF file.
+627:M 18 May 2024 20:05:26.339 * Removing the pid file.
+627:M 18 May 2024 20:05:26.345 # Redis is now ready to exit, bye bye...
+632:C 18 May 2024 21:26:19.830 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+632:C 18 May 2024 21:26:19.831 # Redis version=7.0.11, bits=64, commit=00000000, modified=0, pid=632, just started
+632:C 18 May 2024 21:26:19.831 # Configuration loaded
+632:M 18 May 2024 21:26:19.832 * monotonic clock: POSIX clock_gettime
+632:M 18 May 2024 21:26:19.836 * Running mode=standalone, port=6379.
+632:M 18 May 2024 21:26:19.836 # Server initialized
+632:M 18 May 2024 21:26:19.836 # WARNING Your system is configured to use the 'xen' clocksource which might lead to degraded performance. Check the result of the [slow-clocksource] system check: run 'redis-server --check-system' to check if the system's clocksource isn't degrading performance.
+632:M 18 May 2024 21:26:19.842 * Reading RDB base file on AOF loading...
+632:M 18 May 2024 21:26:19.843 * Loading RDB produced by version 7.0.11
+632:M 18 May 2024 21:26:19.843 * RDB age 68263 seconds
+632:M 18 May 2024 21:26:19.843 * RDB memory usage when created 0.36 Mb
+632:M 18 May 2024 21:26:19.843 * RDB is base AOF
+632:M 18 May 2024 21:26:19.843 * Done loading RDB, keys loaded: 0, keys expired: 0.
+632:M 18 May 2024 21:26:19.843 * DB loaded from base file appendonly.aof.1.base.rdb: 0.001 seconds
+632:M 18 May 2024 21:26:19.884 * DB loaded from incr file appendonly.aof.1.incr.aof: 0.041 seconds
+632:M 18 May 2024 21:26:19.884 * DB loaded from append only file: 0.044 seconds
+632:M 18 May 2024 21:26:19.884 * Opening AOF incr file appendonly.aof.1.incr.aof on server start
+632:M 18 May 2024 21:26:19.884 * Ready to accept connections

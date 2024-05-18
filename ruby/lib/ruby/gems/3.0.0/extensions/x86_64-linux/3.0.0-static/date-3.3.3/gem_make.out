@@ -1,0 +1,24 @@
+current directory: /opt/bitnami/ruby/lib/ruby/gems/3.0.0/gems/date-3.3.3/ext/date
+/opt/bitnami/ruby/bin/ruby extconf.rb
+checking for rb_category_warn()... yes
+checking for timezone in time.h with  -Werror... yes
+checking for altzone in time.h with  -Werror... no
+creating Makefile
+
+current directory: /opt/bitnami/ruby/lib/ruby/gems/3.0.0/gems/date-3.3.3/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20230524-19002-boseox sitelibdir\=./.gem.20230524-19002-boseox clean
+
+current directory: /opt/bitnami/ruby/lib/ruby/gems/3.0.0/gems/date-3.3.3/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20230524-19002-boseox sitelibdir\=./.gem.20230524-19002-boseox
+compiling date_core.c
+compiling date_parse.c
+compiling date_strftime.c
+compiling date_strptime.c
+linking shared-object date_core.so
+
+current directory: /opt/bitnami/ruby/lib/ruby/gems/3.0.0/gems/date-3.3.3/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20230524-19002-boseox sitelibdir\=./.gem.20230524-19002-boseox install
+/usr/bin/install -c -m 0755 date_core.so ./.gem.20230524-19002-boseox
+
+current directory: /opt/bitnami/ruby/lib/ruby/gems/3.0.0/gems/date-3.3.3/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20230524-19002-boseox sitelibdir\=./.gem.20230524-19002-boseox clean

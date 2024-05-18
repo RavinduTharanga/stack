@@ -1,0 +1,54 @@
+2024-05-18T02:28:18.628Z - info: Saving configuration info to disk
+2024-05-18T02:28:20.654Z - info: Saving configuration info to disk
+2024-05-18T02:28:20.877Z - warn: No peerAddress provided. Skipping hosts file section
+2024-05-18T02:28:34.129Z - info: Initializing module bndiagnostic
+2024-05-18T02:28:34.130Z - info: Initializing module gonit
+2024-05-18T02:28:34.130Z - info: Initializing module wait-for-port
+2024-05-18T02:28:34.130Z - info: Initializing module render-template
+2024-05-18T02:28:34.130Z - info: Initializing module redis
+[38;5;6mredis [38;5;5m02:28:34.99 [0m[38;5;3mWARN [0m ==> You set the environment variable ALLOW_EMPTY_PASSWORD=yes. For safety reasons, do not use this flag in a production environment.
+[38;5;6mredis [38;5;5m02:28:35.22 [0m[38;5;2mINFO [0m ==> Initializing Redis
+[38;5;6mredis [38;5;5m02:28:35.24 [0m[38;5;2mINFO [0m ==> Setting Redis config file
+[38;5;6mredis [38;5;5m02:28:40.84 [0m[38;5;2mINFO [0m ==> redis started
+2024-05-18T02:28:40.841Z - info: Initializing module bncert
+2024-05-18T02:28:40.842Z - info: Initializing module apache
+[38;5;6mapache [38;5;5m02:28:41.49 [0m[38;5;2mINFO [0m ==> Generating sample certificates
+Generating RSA private key, 4096 bit long modulus (2 primes)
+.............++++
+............................................++++
+e is 65537 (0x010001)
+Signature ok
+subject=CN = example.com
+Getting Private key
+[38;5;6mapache [38;5;5m02:28:42.18 [0m[38;5;2mINFO [0m ==> Configuring Apache ServerTokens directive
+2024-05-18T02:28:42.193Z - info: Initializing module yq
+2024-05-18T02:28:42.193Z - info: Initializing module ruby-rails-passenger
+2024-05-18T02:28:42.193Z - info: Initializing module postgresql
+waiting for server to shut down.... done
+server stopped
+[38;5;6mpostgresql [38;5;5m02:28:42.84 [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+[38;5;6mpostgresql [38;5;5m02:28:42.85 [0m[38;5;2mINFO [0m ==> Loading custom pre-init scripts...
+[38;5;6mpostgresql [38;5;5m02:28:42.85 [0m[38;5;2mINFO [0m ==> Initializing PostgreSQL database...
+[38;5;6mpostgresql [38;5;5m02:28:50.52 [0m[38;5;2mINFO [0m ==> Starting PostgreSQL in background...
+[38;5;6mpostgresql [38;5;5m02:28:51.66 [0m[38;5;2mINFO [0m ==> Changing password of postgres
+[38;5;6mpostgresql [38;5;5m02:28:51.68 [0m[38;5;2mINFO [0m ==> Creating user bn_canvaslms
+[38;5;6mpostgresql [38;5;5m02:28:51.70 [0m[38;5;2mINFO [0m ==> Granting access to "bn_canvaslms" to the database "bitnami_canvaslms"
+[38;5;6mpostgresql [38;5;5m02:28:51.71 [0m[38;5;2mINFO [0m ==> Setting ownership for the 'public' schema database "bitnami_canvaslms" to "bn_canvaslms"
+[38;5;6mpostgresql [38;5;5m02:28:51.74 [0m[38;5;2mINFO [0m ==> Configuring replication parameters
+[38;5;6mpostgresql [38;5;5m02:28:51.76 [0m[38;5;2mINFO [0m ==> Configuring synchronous_replication
+[38;5;6mpostgresql [38;5;5m02:28:51.76 [0m[38;5;2mINFO [0m ==> Configuring fsync
+[38;5;6mpostgresql [38;5;5m02:28:51.78 [0m[38;5;2mINFO [0m ==> Stopping PostgreSQL...
+[38;5;6mpostgresql [38;5;5m02:28:51.89 [0m[38;5;2mINFO [0m ==> Loading custom scripts...
+[38;5;6mpostgresql [38;5;5m02:28:57.16 [0m[38;5;2mINFO [0m ==> postgresql started
+2024-05-18T02:28:57.163Z - info: Initializing module node
+2024-05-18T02:28:57.163Z - info: Initializing module canvaslms
+[38;5;6mcanvaslms [38;5;5m02:28:57.81 [0m[38;5;3mWARN [0m ==> Hostname rce.example.com could not be resolved, this could lead to connection issues
+[38;5;6mcanvaslms [38;5;5m02:28:57.81 [0m[38;5;2mINFO [0m ==> Trying to connect to the database server
+[38;5;6mcanvaslms [38;5;5m02:28:57.83 [0m[38;5;2mINFO [0m ==> Trying to connect to the Redis server
+[38;5;6mcanvaslms [38;5;5m02:28:58.41 [0m[38;5;2mINFO [0m ==> Configuring Canvas LMS with settings provided via environment variables
+[38;5;6mcanvaslms [38;5;5m02:30:27.02 [0m[38;5;2mINFO [0m ==> Populating database
+[38;5;6mcanvaslms [38;5;5m02:32:57.13 [0m[38;5;2mINFO [0m ==> ensuring that assets are generated
+[38;5;6mcanvaslms [38;5;5m02:33:44.69 [0m[38;5;2mINFO [0m ==> Configuring Canvas RCE API
+2024-05-18T02:33:44.712Z - info: Saving configuration info to disk
+2024-05-18T02:33:44.713Z - info: Saving configuration info to disk
+2024-05-18T02:33:44.780Z - info: Data disk not present

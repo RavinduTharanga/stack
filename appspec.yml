@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /stack
+  - source: /
     destination: /home/bitnami/stack
 hooks:
   BeforeInstall:

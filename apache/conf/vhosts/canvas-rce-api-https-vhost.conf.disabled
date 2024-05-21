@@ -1,9 +1,0 @@
-<VirtualHost 127.0.0.1:443 _default_:443>
-  ServerName rce.example.com
-  ServerAlias www.rce.example.com
-  SSLEngine on
-  SSLCertificateFile "/opt/bitnami/apache/conf/bitnami/certs/server.crt"
-  SSLCertificateKeyFile "/opt/bitnami/apache/conf/bitnami/certs/server.key"
-  ProxyPass / http://127.0.0.1:3000/
-  ProxyPassReverse / http://127.0.0.1:3000/
-</VirtualHost>

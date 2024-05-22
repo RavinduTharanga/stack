@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source: /
-    destination: /home/bitnami/stack
+  - source: /home/bitnami/stack/apache2
+    destination: /home/bitnami/
 hooks:
   BeforeInstall:
     - location: scripts/CopyResources.sh

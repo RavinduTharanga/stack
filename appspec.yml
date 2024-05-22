@@ -3,20 +3,17 @@ os: linux
 files:
   - source: /
     destination: /home/bitnami/stack
-  - source: source
-    destination: /webapps/myApp
 hooks:
   BeforeInstall:
-    - location: Scripts/UnzipResourceBundle.sh
-    - location: Scripts/UnzipDataBundle.sh
+    - location: scripts/CopyResources.sh
+    - location: scripts/CopyData.sh
   AfterInstall:
-    - location: Scripts/RunResourceTests.sh
+    - location: scripts/RunResourceTests.sh
       timeout: 180
   ApplicationStart:
-    - location: Scripts/RunFunctionalTests.sh
+    - location: scripts/RunFunctionalTests.sh
       timeout: 3600
   ValidateService:
-    - location: Scripts/MonitorService.sh
+    - location: scripts/MonitorService.sh
       timeout: 3600
       runas: codedeployuser
-

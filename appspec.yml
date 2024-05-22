@@ -12,7 +12,7 @@ hooks:
       runas: root
   ApplicationStart:
     - location: scripts/start_server.sh
-      runas: bitnami
+      runas: root
   ValidateService:
     - location: scripts/validate_service.sh
-      runas: bitnami
+      runas: root
